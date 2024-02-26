@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Login to Wealthome</title>
+
+  <!--   Favicon -->
+
+  <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg+xml">
+
+   <!-- Custom css link -->
+
+  <link rel="stylesheet" href="Login & Signup Registration form.css">
+
+  <!-- Fontawesome CDN Link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <input type="checkbox" id="flip">
+    
+ <!--   Flip Cover Page    -->
+
+    <div class="cover">
+
+<!--      Cover Front Page  -->
+
+      <div class="front">
+        <img src="images/login-front_Img.jpg" alt="">
+
+        <div class="text">
+          <span class="text-1">Complete miles of journey <br> with one step</span>
+          <span class="text-2">Let's get connected</span>
+        </div>
+      </div>
+
+      <!--      Cover Back Page  -->
+
+      <div class="back">
+        <img class="backImg" src="images/login-back_Img.jpg" alt="">
+
+        <div class="text">
+          <span class="text-1">Complete miles of journey <br> with one step</span>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
+    </div>
+
+<!--    Form   -->
+
+    <div class="forms">
+
+<!--   Login From     -->
+
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+            <form action="index.html">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input type="text" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-box">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="text"><a href="#">Forgot password?</a></div>
+
+                <div class="button input-box">
+                  <input type="submit" value="Sumbit">
+                </div>
+
+                <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
+
+              </div>
+            </form>
+          </div>
+         
+<!--   Signup From   -->
+
+          <div class="signup-form" id="joinup">
+            <div class="title">Signup</div>
+              <form action="#">
+                  <div class="input-boxes">
+                    <div class="input-box">
+                      <i class="fas fa-user"></i>
+                      <input type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-box">
+                      <i class="fas fa-envelope"></i>
+                      <input type="text" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="input-box">
+                      <i class="fas fa-lock"></i>
+                      <input type="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="button input-box">
+                      <input type="submit" value="Sumbit">
+                    </div>
+
+                    <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
+
+                  </div>
+              </form>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

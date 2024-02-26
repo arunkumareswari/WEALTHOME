@@ -1,0 +1,128 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+  width: 100%;
+  min-height:100vh;
+  background-color: #ddd;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  text-align: center;
+  /* font-size: 40px; */
+  color: rgb(94, 34, 150);
+  text-transform: uppercase;
+  /* letter-spacing: 1.5px; */
+  margin-top: 10px;
+}
+
+section h2::after{
+  content:"" ;
+    height: 5px;
+    width: 200px;
+    background-color: rgb(94, 34, 150) ;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+section > h3 {
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 50px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+section .cards .card p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+
+section.about {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.about .company-info {
+  margin-top: 30px;
+}
+
+.about h3 {
+  margin: 30px 0 10px;
+}
+
+.about .team {
+  text-align: left;
+  width: 100%;
+}
+
+.about .team ul {
+  padding-left: 20px;
+}
+
+section .cards .card {
+  background: #cec9c9;
+  padding: 40px 15px;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+  width: calc(100% / 3 - 30px);
+  text-align: center;
+}
+
+.services .card i {
+  color: rgb(94, 34, 150);
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+
+.back-to-home {
+  margin-top: 70px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #710193;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Optional hover effect */
+
+
+.back-to-home:hover {
+  background-color: #dad0d0;
+  color: #710193;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid #710193;
+}
+
